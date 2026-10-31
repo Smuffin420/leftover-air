@@ -1,0 +1,12 @@
+---
+description: Bump the Leftover Air version when a player-facing change lands
+alwaysApply: true
+---
+
+# Version
+
+The game version is `config/version` in `project.godot`. The home screen reads that setting.
+
+When a change is something a player would notice — a feature, a balance change, or a bugfix — bump the patch before finishing. 0.2.1 becomes 0.2.2. Leave the version alone for comments, temporary scripts, or another edit in the same pass after it was already raised for that work.
+
+Do not rename the project folder.
